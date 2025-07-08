@@ -1,45 +1,45 @@
 def Ejercicio_1():
-    contadorFerra = 0
-    contadorVitelli = 0
-    contadorMolinas = 0
+    contadorMauro = 0
+    contadorThiago = 0
+    contadorNahuel = 0
     votacion = 1
     print("Bienvenido a la votación por el delegado. Hay 3 candidatos:")
-    print("Ingrese 1 para votar a Ferra")
-    print("Ingrese 2 para votar a Vitelli")
-    print("Ingrese 3 para votar a Molinas")
+    print("Ingrese 1 para votar a Mauro")
+    print("Ingrese 2 para votar a Thiago")
+    print("Ingrese 3 para votar a Nahuel")
     print("Ingrese 0 para terminar")
     while votacion != 0:
         votacion = int(input("Vota: "))
         if votacion == 0:
             break
         elif votacion == 1:
-            contadorFerra += 1
+            contadorMauro += 1
         elif votacion == 2:
-            contadorVitelli +=1
+            contadorThiago +=1
         elif votacion == 3:
-            contadorMolinas +=1
+            contadorNahuel +=1
         else:
             print("Debe ingresar un numero del 0-3")
-    if contadorFerra == contadorVitelli or contadorFerra == contadorMolinas or contadorMolinas == contadorVitelli:
+    if contadorMauro == contadorThiago or contadorMauro == contadorNahuel or contadorNahuel == contadorThiago:
         votacion = int(input("Vota para desempatar una sola vez: "))
         if votacion == 1:
-            contadorFerra += 1
+            contadorMauro += 1
         elif votacion == 2:
-            contadorVitelli +=1
+            contadorThiago +=1
         elif votacion == 3:
-            contadorMolinas +=1
-    if contadorVitelli > contadorFerra and contadorVitelli > contadorMolinas:
+            contadorNahuel +=1
+    if contadorThiago > contadorMauro and contadorThiago > contadorNahuel:
         print("Vitelli ganó.")
         print("------------------------------")
-    elif contadorFerra > contadorVitelli and contadorFerra > contadorMolinas:
-        print("Ferra ganó.")
+    elif contadorMauro > contadorThiago and contadorMauro > contadorNahuel:
+        print("Mauro ganó.")
         print("------------------------------")
-    elif contadorMolinas > contadorFerra and contadorMolinas > contadorVitelli:
-        print("Molinas ganó")
+    elif contadorNahuel > contadorMauro and contadorNahuel > contadorThiago:
+        print("Nahuel ganó")
         print("------------------------------")
-    print("Ferra obtuvo:", contadorFerra, "votos.")
-    print("Vitelli obtuvo:", contadorVitelli, "votos.")
-    print("Molinas obtuvo:", contadorMolinas, "votos.")
+    print("Mauro obtuvo:", contadorMauro, "votos.")
+    print("Thiago obtuvo:", contadorThiago, "votos.")
+    print("Nahuel obtuvo:", contadorNahuel, "votos.")
 
 
 def Ejercicio_2():
@@ -201,7 +201,7 @@ def Ejercicio_9():
 
 
 def Ejercicio_10():
-    contraseña = "brbrpata"
+    contraseña = "Messi"
     usuario = str(input("Ingrese su usuario: "))
     for i in range(3):
         verificar = str(input("Ingrese su contraseña: "))
@@ -215,7 +215,7 @@ def Ejercicio_10():
 
 def Ejercicio_11():
     import random
-    sujeto = ["Ferra ", "Vitelli ", "El Chino ", "Nico ", "El Veneco "]
+    sujeto = ["Mauro ", "Thiago ", "Nahuel ", "Nico ", "Mati "]
     verbo = ["pateó ", "tomó ", "lanzó ", "atrapó ", "encontró "]
     objeto = ["una pelota", "una cartuchera", "un lapiz", "una botella", "un abrigo"]
     num = random.randint(0,4)
@@ -308,20 +308,20 @@ def Ejercicio_16():
 
 def Ejercicio_17():
     rtac = 0
-    print("BIENVENIDO A LA FERRATRIVIA")
+    print("BIENVENIDO A LA QUIZBOQUENSE")
     print("DEBERAS RESPONDER 3 PREGUNTAS")
     print("PREGUNTA NÚMERO 1:")
-    print("Cuál es el Angry Bird con poder de velocidad: ")
-    print("1) Rojo")
-    print("2) Amarillo")
-    print("3) Negro")
+    print("Cuantas libertadores tiene boca: ")
+    print("1) 5")
+    print("2) 6")
+    print("3) 7")
     rta = int(input("Ingrese su respuesta: "))
     if rta == 2:
         rtac += 1
         print("Respuesta correcta")
     else:
         print("Respuesta incorrecta")
-        print("El pájaro mas rápido es el amarillo.")
+        print("Boca tiene 6 libertadores.")
     print(" ")
     print("----------------------------------------------")
     print(" ")
