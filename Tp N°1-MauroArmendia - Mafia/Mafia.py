@@ -7,13 +7,13 @@ def Mafia():
     listavacia = []
 
     if jugador1 == "":
-        jugador1 = "Balatro Balatrez"
+        jugador1 = "Leandro Paredes"
 
     if jugador2 == "":
-        jugador2 = "Tralalelo Tralala"
+        jugador2 = "Angel Di Maria"
 
     if jugador3 == "":
-        jugador3 = "Lucas Janson"
+        jugador3 = "Juanfer Quintero"
 
     if jugador4 == "":
         jugadores = [jugador1, jugador2, jugador3]
