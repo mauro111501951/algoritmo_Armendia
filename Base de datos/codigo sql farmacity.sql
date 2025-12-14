@@ -1,3 +1,7 @@
+drop database if exists Farmacity;
+create database Farmacity;
+use Farmacity;
+
 create table Medicamentos(
 id_medicamentos int auto_increment primary key,
 nombre varchar(30),
@@ -20,9 +24,10 @@ values
 
 insert into Ventas(id_medicamento, fecha, cantidad)
 values
-(1,'25-3-2025',5),
-(2,'5-5-2025',7),
-(1,'8-12-2025',4);
+(1,'2025-3-25',5),
+(2,'2025-5-5',7),
+(1,'2025-12-8',4);
+
 
 
 
