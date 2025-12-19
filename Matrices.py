@@ -1,13 +1,12 @@
 import random
 
 nombres = [
-    "Agustín", "Milagros", "Franco", "Catalina", "Tobías", "Abril", "Renzo", "Malena", "Bautista", "Elena",
-    "Nicolás", "Lara", "Juan", "Josefina", "Ramiro", "Guadalupe", "Facundo", "Delfina", "Emiliano", "Roma",
-    "Pablo", "Miranda", "Marcos", "Naiara", "Axel", "Florencia", "Kevin", "Sol", "Nahuel", "Alma",
-    "Jeremías", "Pilar", "Ulises", "Ana", "Santino", "Eva", "Mauricio", "Candela", "Rodrigo", "Jazmín",
-    "Cristóbal", "Selena", "Ezequiel", "Uma", "Valentín", "Helena", "Orlando", "Violeta", "Alan", "Guillermina"
+    "Emiliano Martínez", "Franco Armani", "Gerónimo Rulli", "Nahuel Molina", "Gonzalo Montiel", "Cristian Romero", "Germán Pezzella", "Nicolás Otamendi", "Lisandro Martínez", "Marcos Acuña",
+    "Nicolás Tagliafico", "Juan Foyth", "Rodrigo De Paul", "Leandro Paredes", "Alexis Mac Allister", "Guido Rodríguez", "Alejandro Gómez", "Enzo Fernández", "Exequiel Palacios", "Lionel Messi",
+    "Ángel Di María", "Lautaro Martínez", "Julián Álvarez", "Paulo Dybala", "Nicolás González", "Joaquín Correa", "Diego Maradona", "Mario Kempes", "Daniel Passarella", "Osvaldo Ardiles",
+    "Jorge Burruchaga", "Sergio Batista", "Julio Olarticoechea", "Oscar Ruggeri", "Nery Pumpido", "José Luis Brown", "Ubaldo Fillol", "Héctor Enrique", "Ricardo Giusti", "Javier Mascherano",
+    "Juan Román Riquelme", "Gabriel Batistuta", "Claudio Caniggia", "Fernando Redondo", "Diego Simeone", "Hernán Crespo", "Roberto Ayala", "Ariel Ortega", "Walter Samuel", "Pablo Aimar"
 ]
-
 
 posiciones = [
     "Delantero", "Mediocampista", "Defensor", "Arquero"
@@ -47,4 +46,5 @@ elif Promedio2 > Promedio1:
 else:
     print(f"Media Equipo 1: {Promedio1}")
     print(f"Media Equipo 2: {Promedio2}")
+
     print("Es un empate.")
